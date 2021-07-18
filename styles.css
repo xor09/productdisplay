@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  color: cornsilk;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)),
+    url("https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.button {
+  margin-top: 45px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(21, 89, 216);
+  color: white;
+  font-weight: bold;
+}
+h1 {
+  padding-top: 40px;
+  font-family: cursive;
+}
+h2 {
+  color: gold;
+  font-style: italic;
+}
+.laptop {
+  margin-left: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: auto;
+}
+.laptop img {
+  margin: 10px;
+  box-shadow: 3px 10px 8px 0px rgba(0, 0, 0, 0.3);
+  max-width: 30vw;
+  float: inline-end;
+}
+
+.laptop img:hover {
+  border: 2px solid rgb(61, 57, 57);
+}
+
+p {
+  text-align: center;
+  color: antiquewhite;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: bolder;
+}
+.headdiv {
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h3 {
+  font-style: oblique;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 0;
+  text-align: center;
+}
+.footer {
+  background: black;
+  width: 100%;
+  float: left;
+}
+.laptop ul {
+  text-decoration: none;
+}
